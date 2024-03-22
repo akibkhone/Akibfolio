@@ -342,10 +342,55 @@
 		transform: rotate(4deg) translate(-0.6em, 1.45em);
 	}
 
+	.hamster__head {
+		width: 2.25em;
+		height: 2em;
+		left: -1.5em;
+	}
+
+	.hamster__ear {
+		width: 0.75em;
+		height: 0.75em;
+		right: -0.25em;
+	}
+
+	.hamster__eye {
+		width: 0.4em;
+		height: 0.4em;
+		left: 1em;
+	}
+
+	.hamster__nose {
+		width: 0.15em;
+		height: 0.2em;
+	}
+
 	.hamster__body {
 		width: 4em;
 		height: 2.5em;
 		transform: rotate(-2deg);
+		top: 1em;
+	}
+
+	.hamster__limb--fr,
+	.hamster__limb--fl {
+		top: 1.5em;
+	}
+
+	.hamster__limb--br,
+	.hamster__limb--bl {
+		top: 1em;
+		width: 1.25em;
+		height: 2em;
+	}
+
+	.hamster__tail {
+		top: 1.25em;
+		right: -0.25em;
+		width: 0.8em;
+		height: 0.4em;
+		transform: rotate(30deg) translateZ(-1px);
+		transform-origin: 0.2em 0.2em;
 	}
 }
 
@@ -356,9 +401,54 @@
 		transform: rotate(4deg) translate(-0.5em, 1.25em);
 	}
 
+	.hamster__head {
+		width: 2em;
+		height: 1.75em;
+		left: -1.5em;
+	}
+
+	.hamster__ear {
+		width: 0.5em;
+		height: 0.5em;
+		right: -0.2em;
+	}
+
+	.hamster__eye {
+		width: 0.35em;
+		height: 0.35em;
+		left: 1em;
+	}
+
+	.hamster__nose {
+		width: 0.15em;
+		height: 0.2em;
+	}
+
 	.hamster__body {
 		width: 3.5em;
 		height: 2em;
+		top: 1.2em;
 		transform: rotate(-2deg);
+	}
+
+	.hamster__limb--fr,
+	.hamster__limb--fl {
+		top: 1.25em;
+	}
+
+	.hamster__limb--br,
+	.hamster__limb--bl {
+		top: 0.75em;
+		width: 1.1em;
+		height: 1.75em;
+	}
+
+	.hamster__tail {
+		top: 1em;
+		right: -0.2em;
+		width: 0.6em;
+		height: 0.3em;
+		transform: rotate(30deg) translateZ(-1px);
+		transform-origin: 0.15em 0.15em;
 	}
 }
