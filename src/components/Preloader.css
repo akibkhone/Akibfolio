@@ -1,3 +1,10 @@
+.preloader-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
 .wheel-and-hamster {
 	--dur: 1s;
 	position: relative;
@@ -328,125 +335,30 @@
 	}
 }
 
-.preloader-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
-
 @media (max-width: 600px) {
-	.wheel-and-hamster {
-		width: 6em;
-		height: 6em;
-		font-size: 7px;
-	}
-
 	.hamster {
-		left: calc(50% - 1.75em);
-		width: 3.5em;
-		height: 1.875em;
-	}
-
-	.hamster__head {
-		left: -1em;
-		width: 1.375em;
-		height: 1.25em;
+		width: 6em;
+		height: 3.25em;
+		transform: rotate(4deg) translate(-0.6em, 1.45em);
 	}
 
 	.hamster__body {
-		left: 1em;
-		width: 2.25em;
-		height: 1.5em;
-	}
-
-	.hamster__limb--fr,
-	.hamster__limb--fl {
-		top: 1em;
-		left: 0.25em;
-		width: 0.5em;
-		height: 0.75em;
-	}
-
-	.hamster__limb--br,
-	.hamster__limb--bl {
-		top: 0.5em;
-		left: 1.4em;
-		width: 0.75em;
-		height: 1.25em;
-	}
-
-	.hamster__tail {
-		top: 0.75em;
-		right: -0.25em;
-		width: 0.5em;
-		height: 0.25em;
+		width: 4em;
+		height: 2.5em;
+		transform: rotate(-2deg);
 	}
 }
 
 @media (max-width: 480px) {
-	.wheel-and-hamster {
-		width: 6em;
-		height: 6em;
-		font-size: 7px;
-	}
-
 	.hamster {
-		left: calc(50% - 2.75em);
-		width: 3.5em;
-		height: 1.875em;
-		top: calc(50% - (1.875em / 2));
-	}
-
-	.hamster__head {
-		left: -1em;
-		width: 1.375em;
-		height: 1.25em;
+		width: 5em;
+		height: 2.5em;
+		transform: rotate(4deg) translate(-0.5em, 1.25em);
 	}
 
 	.hamster__body {
-		left: 1em;
-		width: 2.25em;
-		height: 1.5em;
+		width: 3.5em;
+		height: 2em;
+		transform: rotate(-2deg);
 	}
-
-	.hamster__limb--fr,
-	.hamster__limb--fl {
-		top: 1em;
-		left: 0.25em;
-		width: 0.5em;
-		height: 0.75em;
-	}
-
-	.hamster__limb--br,
-	.hamster__limb--bl {
-		top: 0.5em;
-		left: 1.4em;
-		width: 0.75em;
-		height: 1.25em;
-	}
-
-	.hamster__tail {
-		top: 0.75em;
-		right: -0.25em;
-		width: 0.5em;
-		height: 0.25em;
-	}
-}
-@media screen and (max-width: 600px) {
-    .hamster__eye {
-        width: 0.25em; /* Adjust the width of the eye */
-        height: 0.25em; /* Adjust the height of the eye */
-        top: 0.3125em; /* Adjust the top position of the eye */
-        left: 0.1875em; /* Adjust the left position of the eye */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hamster__eye {
-        width: 0.125em; /* Adjust the width of the eye */
-        height: 0.125em; /* Adjust the height of the eye */
-        top: 0.1875em; /* Adjust the top position of the eye */
-        left: 0.09375em; /* Adjust the left position of the eye */
-    }
 }
