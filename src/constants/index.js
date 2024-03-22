@@ -84,6 +84,23 @@ const technologies = [
 		name: 'MySQL',
 		icon: mysql,
 	},
+
+	{
+		name: 'Rabbit MQ',
+		icon: rabbitmq,
+	},
+	{
+		name: 'Elastic Search',
+		icon: elasticsearch,
+	},
+	{
+		name: 'JPA Hibernate',
+		icon: hibernate,
+	},
+	{
+		name: 'Postman',
+		icon: postman,
+	},
 	{
 		name: 'React JS',
 		icon: reactjs,
