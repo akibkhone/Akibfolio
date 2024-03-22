@@ -395,7 +395,7 @@
 		left: calc(50% - 1.75em);
 		width: 3.5em;
 		height: 1.875em;
-		top: 45%; /* Adjust this value */
+		top: calc(50% - (1.875em / 2));
 	}
 
 	.hamster__head {
