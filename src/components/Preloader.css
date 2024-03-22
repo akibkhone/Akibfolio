@@ -433,3 +433,19 @@
 		height: 0.25em;
 	}
 }
+@media screen and (max-width: 600px) {
+    .hamster__eye {
+        width: 0.25em; /* Adjust the width of the eye */
+        height: 0.25em; /* Adjust the height of the eye */
+        top: 0.3125em; /* Adjust the top position of the eye */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hamster__eye {
+        width: 0.125em; /* Adjust the width of the eye */
+        height: 0.125em; /* Adjust the height of the eye */
+        top: 0.1875em; /* Adjust the top position of the eye */
+    }
+}
+
