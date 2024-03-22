@@ -392,7 +392,7 @@
 	}
 
 	.hamster {
-		left: calc(50% - 1.75em);
+		left: calc(50% - 2.75em);
 		width: 3.5em;
 		height: 1.875em;
 		top: calc(50% - (1.875em / 2));
@@ -438,6 +438,7 @@
         width: 0.25em; /* Adjust the width of the eye */
         height: 0.25em; /* Adjust the height of the eye */
         top: 0.3125em; /* Adjust the top position of the eye */
+        left: 0.1875em; /* Adjust the left position of the eye */
     }
 }
 
@@ -446,6 +447,6 @@
         width: 0.125em; /* Adjust the width of the eye */
         height: 0.125em; /* Adjust the height of the eye */
         top: 0.1875em; /* Adjust the top position of the eye */
+        left: 0.09375em; /* Adjust the left position of the eye */
     }
 }
-
