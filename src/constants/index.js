@@ -195,6 +195,7 @@ const projects = [
 		],
 		image: Gemini,
 		source_code_link: 'https://github.com/akibkhone/Gemini-Ai-Clone',
+		project_url: 'https://gemini-ai-clone.pages.dev/',
 	},
 	{
 		name: 'Sundown Studio Clone',
@@ -216,6 +217,7 @@ const projects = [
 		],
 		image: Sundown,
 		source_code_link: 'https://github.com/akibkhone/Sundown-Studio-Clone',
+		project_url: 'https://sundown-studio-clone.pages.dev/',
 	},
 	{
 		name: 'Employee Management System',
@@ -237,6 +239,7 @@ const projects = [
 		],
 		image: Employee,
 		source_code_link: 'https://github.com/akibkhone/Employee-Management-System-Backend',
+		project_url: 'https://employee-management-system-frontend.onrender.com/',
 	},
 	{
 		name: 'Simple Music Player',
@@ -258,6 +261,7 @@ const projects = [
 		],
 		image: Music,
 		source_code_link: 'https://github.com/akibkhone/Simple-Music-Player',
+		project_url: 'https://simple-music-player.pages.dev/',
 	},
 	{
 		name: 'Random Advice Generator',
@@ -279,6 +283,7 @@ const projects = [
 		],
 		image: Advice,
 		source_code_link: 'https://github.com/akibkhone/Random-Advice-Generator',
+		project_url: 'https://random-advice-generator.onrender.com/',
 	},
 	{
 		name: 'Fashion Agency Landing Page',
@@ -296,6 +301,7 @@ const projects = [
 		],
 		image: Agency,
 		source_code_link: 'https://github.com/akibkhone/Fashion-Agency-Landing-Page',
+		project_url: 'https://fashion-agency-landing-page.pages.dev/',
 	},
 ];
 
