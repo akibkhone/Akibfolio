@@ -1,59 +1,13 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { useAnimation } from 'framer-motion';
-
-const MessageCard = ({ type, onClose }) => {
-	useEffect(() => {
-		const timer = setTimeout(() => {
-			onClose();
-		}, 3000);
-		return () => clearTimeout(timer);
-	}, [onClose]);
-
-	return (
-		<motion.div
-			initial={{ opacity: 0, y: -20 }}
-			animate={{ opacity: 1, y: 0 }}
-			exit={{ opacity: 0, y: -20 }}
-			transition={{ duration: 0.3 }}
-			className={`fixed bottom-2 right-2 transform -translate-x-1/2 w-72 rounded-lg shadow-lg p-6 z-50 text-white ${
-				type === 'success'
-					? 'bg-gradient-to-r from-green-500 to-green-600'
-					: 'bg-gradient-to-r from-red-500 to-red-600'
-			}`}>
-			<div className="flex justify-between">
-				<p className={`text-lg font-semibold`}>{type === 'success' ? 'Success!' : 'Error!'}</p>
-				<button
-					onClick={onClose}
-					className="focus:outline-none">
-					<svg
-						className="h-5 w-5 text-white hover:text-gray-300"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor">
-						<path
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth={2}
-							d="M6 18L18 6M6 6l12 12"
-						/>
-					</svg>
-				</button>
-			</div>
-			<p className="text-white mt-2">
-				{type === 'success'
-					? 'Your message has been sent successfully.'
-					: 'Oops! Something went wrong. Please try again later.'}
-			</p>
-		</motion.div>
-	);
-};
 
 const Contact = () => {
 	const formRef = useRef();
@@ -63,24 +17,28 @@ const Contact = () => {
 		message: '',
 	});
 	const [loading, setLoading] = useState(false);
-	const [messageType, setMessageType] = useState(null);
 
 	const handleChange = (e) => {
-		const { target } = e;
-		const { name, value } = target;
-
+		const { name, value } = e.target;
 		setForm({
 			...form,
 			[name]: value,
 		});
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
+
+		// Check if any field is empty
+		if (!form.name || !form.email || !form.message) {
+			toast.error('Please fill out all fields.');
+			return;
+		}
+
 		setLoading(true);
 
-		emailjs
-			.send(
+		try {
+			await emailjs.send(
 				import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
 				import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
 				{
@@ -91,28 +49,19 @@ const Contact = () => {
 					message: form.message,
 				},
 				import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-			)
-			.then(
-				() => {
-					setLoading(false);
-					setMessageType('success');
-
-					setForm({
-						name: '',
-						email: '',
-						message: '',
-					});
-				},
-				(error) => {
-					setLoading(false);
-					setMessageType('error');
-					console.error(error);
-				}
 			);
-	};
-
-	const handleCloseMessage = () => {
-		setMessageType(null);
+			toast.success('Your message has been sent successfully.');
+			setForm({
+				name: '',
+				email: '',
+				message: '',
+			});
+		} catch (error) {
+			console.error(error);
+			toast.error('Oops! Something went wrong. Please try again later.');
+		} finally {
+			setLoading(false);
+		}
 	};
 
 	return (
@@ -163,7 +112,8 @@ const Contact = () => {
 
 					<button
 						type="submit"
-						className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary">
+						className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+						disabled={loading}>
 						{loading ? 'Sending...' : 'Send'}
 					</button>
 				</form>
@@ -175,12 +125,11 @@ const Contact = () => {
 				<EarthCanvas />
 			</motion.div>
 
-			{messageType && (
-				<MessageCard
-					type={messageType}
-					onClose={handleCloseMessage}
-				/>
-			)}
+			<ToastContainer
+				position="bottom-right"
+				autoClose={3000}
+				hideProgressBar={false}
+			/>
 		</div>
 	);
 };
