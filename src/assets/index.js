@@ -32,6 +32,8 @@ import Employee from './Employee.png';
 import Gemini from './Gemini.png';
 import Sundown from './Sundown.png';
 import Music from './Music.png';
+import FashionLookConcept from './FashionLookConcept.png';
+import ShopJacket from './ShopJacket.png';
 
 import men from './man.png';
 import women from './women.png';
@@ -70,4 +72,6 @@ export {
 	men,
 	women,
 	preview,
+	ShopJacket,
+	FashionLookConcept,
 };

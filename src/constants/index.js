@@ -27,6 +27,8 @@ import {
 	infosys,
 	men,
 	women,
+	ShopJacket,
+	FashionLookConcept,
 } from '../assets';
 
 export const navLinks = [
@@ -302,6 +304,42 @@ const projects = [
 		image: Agency,
 		source_code_link: 'https://github.com/akibkhone/Fashion-Agency-Landing-Page',
 		project_url: 'https://fashion-agency-landing-page.pages.dev/',
+	},
+	{
+		name: 'Shop Jacket',
+		description:
+			'Discover a responsive CSS project featuring a stylish jacket shop design, optimized for various screen sizes with Flexbox layouts and media queries.',
+		tags: [
+			{
+				name: 'css',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'html',
+				color: 'green-text-gradient',
+			},
+		],
+		image: ShopJacket,
+		source_code_link: 'https://github.com/akibkhone/Shop-Jacket',
+		project_url: 'https://shop-jacket.pages.dev',
+	},
+	{
+		name: 'Fashion Look Concept',
+		description:
+			'Experience a captivating CSS project unveiling a fashion look concept with elegant design elements and responsive layouts, tailored for seamless viewing across devices.',
+		tags: [
+			{
+				name: 'css',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'html',
+				color: 'green-text-gradient',
+			},
+		],
+		image: FashionLookConcept,
+		source_code_link: 'https://github.com/akibkhone/Fashion-Look-Concept',
+		project_url: 'https://fashion-look-concept.pages.dev/',
 	},
 ];
 
