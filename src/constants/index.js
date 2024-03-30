@@ -285,7 +285,7 @@ const projects = [
 		],
 		image: Advice,
 		source_code_link: 'https://github.com/akibkhone/Random-Advice-Generator',
-		project_url: 'https://random-advice-generator.onrender.com/',
+		project_url: 'https://random-advice-generator-1hf.pages.dev',
 	},
 	{
 		name: 'Fashion Agency Landing Page',
