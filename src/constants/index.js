@@ -29,6 +29,7 @@ import {
 	women,
 	ShopJacket,
 	FashionLookConcept,
+	cotton,
 } from '../assets';
 
 export const navLinks = [
@@ -340,6 +341,28 @@ const projects = [
 		image: FashionLookConcept,
 		source_code_link: 'https://github.com/akibkhone/Fashion-Look-Concept',
 		project_url: 'https://fashion-look-concept.pages.dev/',
+	},
+	{
+		name: 'Cotton Weave',
+		description:
+			'Crafted a Cotton Weave CSS Project using advanced techniques to replicate cotton weave patterns digitally, showcasing mastery in CSS styling and creativity in web design.',
+		tags: [
+			{
+				name: 'css',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'web-design',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'creative-styling',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: cotton,
+		source_code_link: 'https://github.com/akibkhone/Cotton-Weave',
+		project_url: 'https://cotton-weave.pages.dev',
 	},
 ];
 

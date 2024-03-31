@@ -34,6 +34,7 @@ import Sundown from './Sundown.png';
 import Music from './Music.png';
 import FashionLookConcept from './FashionLookConcept.png';
 import ShopJacket from './ShopJacket.png';
+import cotton from './cotton.png';
 
 import men from './man.png';
 import women from './women.png';
@@ -74,4 +75,5 @@ export {
 	preview,
 	ShopJacket,
 	FashionLookConcept,
+	cotton,
 };
