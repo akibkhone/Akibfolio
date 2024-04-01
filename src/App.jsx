@@ -10,10 +10,10 @@ const App = () => {
 	useEffect(() => {
 		const timer = setTimeout(() => {
 			setLoading(false);
-		}, 4000);
+		}, 2200);
 
 		return () => clearTimeout(timer);
-	}, []);2
+	}, []);
 
 	useEffect(() => {
 		if (!loading) {

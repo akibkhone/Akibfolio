@@ -25,7 +25,7 @@ const Preloader = () => {
 				// If all greetings are shown, close the loader
 				setIsClosing(true);
 			}
-		}, 300); // Adjust timing between each greeting
+		}, 150); // Adjust timing between each greeting
 
 		return () => clearTimeout(timer);
 	}, [index]);

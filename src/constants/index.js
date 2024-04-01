@@ -30,6 +30,7 @@ import {
 	ShopJacket,
 	FashionLookConcept,
 	cotton,
+	trendline,
 } from '../assets';
 
 export const navLinks = [
@@ -288,24 +289,7 @@ const projects = [
 		source_code_link: 'https://github.com/akibkhone/Random-Advice-Generator',
 		project_url: 'https://random-advice-generator-1hf.pages.dev',
 	},
-	{
-		name: 'Fashion Agency Landing Page',
-		description:
-			'Created a responsive landing page for a fashion agency using HTML and CSS. The layout and design were optimized for various screen sizes to ensure a seamless user experience.',
-		tags: [
-			{
-				name: 'html',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'css',
-				color: 'green-text-gradient',
-			},
-		],
-		image: Agency,
-		source_code_link: 'https://github.com/akibkhone/Fashion-Agency-Landing-Page',
-		project_url: 'https://fashion-agency-landing-page.pages.dev/',
-	},
+
 	{
 		name: 'Shop Jacket',
 		description:
@@ -363,6 +347,42 @@ const projects = [
 		image: cotton,
 		source_code_link: 'https://github.com/akibkhone/Cotton-Weave',
 		project_url: 'https://cotton-weave.pages.dev',
+	},
+	{
+		name: 'Trendliner',
+		description:
+			'Embark on a journey through the latest fashion trends with Trendline, a dynamic CSS project showcasing the fusion of style and technology. Crafted using CSS3, HTML5, and Swiper.js, Trendline offers an immersive experience with seamless navigation and captivating visuals.',
+		tags: [
+			{
+				name: 'css',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'html',
+				color: 'green-text-gradient',
+			},
+		],
+		image: trendline,
+		source_code_link: 'https://github.com/akibkhone/Trendline',
+		project_url: 'https://trendline.pages.dev',
+	},
+	{
+		name: 'Fashion Agency Landing Page',
+		description:
+			'Created a responsive landing page for a fashion agency using HTML and CSS. The layout and design were optimized for various screen sizes to ensure a seamless user experience.',
+		tags: [
+			{
+				name: 'html',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'green-text-gradient',
+			},
+		],
+		image: Agency,
+		source_code_link: 'https://github.com/akibkhone/Fashion-Agency-Landing-Page',
+		project_url: 'https://fashion-agency-landing-page.pages.dev/',
 	},
 ];
 
