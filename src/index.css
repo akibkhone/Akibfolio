@@ -352,12 +352,12 @@
 
 @media (max-width: 768px) {
 	.button .text_button {
-		font-size: 0.875rem;
+		font-size: 1rem;
 	}
 }
 
 @media (max-width: 480px) {
 	.button .text_button {
-		font-size: 0.75rem;
+		font-size: 0.9rem;
 	}
 }
