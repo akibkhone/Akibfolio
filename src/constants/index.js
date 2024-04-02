@@ -6,7 +6,6 @@ import {
 	css,
 	reactjs,
 	tailwind,
-	nodejs,
 	mongodb,
 	git,
 	docker,
@@ -182,7 +181,7 @@ const projects = [
 	{
 		name: 'Google Gemini AI Clone',
 		description:
-			"Introducing a meticulously crafted React JS Gemini clone, faithfully replicating the renowned platform's design and functionality. Seamlessly responsive across all screen sizes, this project showcases the power of Google's Gemini AI API for dynamic text generation. Experience the full potential of a powerful language model in this faithful recreation.",
+			"A meticulously crafted React JS Gemini clone, replicating Google's Gemini AI platform design and functionality, seamlessly responsive across all screens, showcasing the power of Gemini API for dynamic text generation.",
 		tags: [
 			{
 				name: 'react',
@@ -204,7 +203,7 @@ const projects = [
 	{
 		name: 'Sundown Studio Clone',
 		description:
-			"Explore this clone of Sundown Studio, replicating its design and functionality. Built with HTML, CSS, and JavaScript, this project demonstrates your ability to recreate a sleek and responsive website. Discover the work, services, and about sections, echoing the original site's simplicity and elegance.",
+			'A Sundown Studio clone, replicating its design and functionality using HTML, CSS, and JavaScript, demonstrating responsive web development skills and ability to recreate sleek and elegant websites.',
 		tags: [
 			{
 				name: 'html',
@@ -226,7 +225,7 @@ const projects = [
 	{
 		name: 'Employee Management System',
 		description:
-			'Developed an Employee Management System integrating Spring Boot, MongoDB, and ReactJS, featuring core functionalities like Add, Update, and View Employee, showcasing full-stack development expertise with seamless backend-frontend integration and CRUD operations for efficient employee data management.',
+			'An Employee Management System integrating Spring Boot, MongoDB, and ReactJS, featuring CRUD operations for efficient employee data management, showcasing full-stack development expertise.',
 		tags: [
 			{
 				name: 'springboot',
@@ -248,7 +247,7 @@ const projects = [
 	{
 		name: 'Simple Music Player',
 		description:
-			'Crafted a responsive music player using HTML, CSS, and JavaScript, offering users a seamless audio exploration experience. Designed with a minimalist interface, the player adapts gracefully across different screen sizes, showcasing adeptness in front-end development.',
+			'A responsive music player built with HTML, CSS, and JavaScript, offering a seamless audio experience with a minimalist interface, showcasing front-end development skills.',
 		tags: [
 			{
 				name: 'html',
@@ -270,7 +269,7 @@ const projects = [
 	{
 		name: 'Random Advice Generator',
 		description:
-			'Developed a React application that dynamically fetches and showcases random pieces of advice quotes by integrating an external API, providing real-time updates. Implemented with a responsive design to ensure optimal display across various devices.',
+			'A React application fetching and displaying random advice quotes from an external API, with real-time updates and responsive design, highlighting API integration and React proficiency.',
 		tags: [
 			{
 				name: 'react',
@@ -293,7 +292,7 @@ const projects = [
 	{
 		name: 'Shop Jacket',
 		description:
-			'Discover a responsive CSS project featuring a stylish jacket shop design, optimized for various screen sizes with Flexbox layouts and media queries.',
+			'A responsive CSS project featuring a stylish jacket shop design, optimized for various screen sizes with Flexbox layouts and media queries.',
 		tags: [
 			{
 				name: 'css',
@@ -311,7 +310,7 @@ const projects = [
 	{
 		name: 'Fashion Look Concept',
 		description:
-			'Experience a captivating CSS project unveiling a fashion look concept with elegant design elements and responsive layouts, tailored for seamless viewing across devices.',
+			'A captivating CSS project unveiling a fashion look concept with elegant design elements and responsive layouts, tailored for seamless viewing across devices.',
 		tags: [
 			{
 				name: 'css',
@@ -329,7 +328,7 @@ const projects = [
 	{
 		name: 'Cotton Weave',
 		description:
-			'Crafted a Cotton Weave CSS Project using advanced techniques to replicate cotton weave patterns digitally, showcasing mastery in CSS styling and creativity in web design.',
+			'A CSS project replicating cotton weave patterns digitally, showcasing mastery in CSS styling and creativity in web design.',
 		tags: [
 			{
 				name: 'css',
@@ -351,7 +350,7 @@ const projects = [
 	{
 		name: 'Trendliner',
 		description:
-			'Embark on a journey through the latest fashion trends with Trendline, a dynamic CSS project showcasing the fusion of style and technology. Crafted using CSS3, HTML5, and Swiper.js, Trendline offers an immersive experience with seamless navigation and captivating visuals.',
+			'A dynamic CSS project showcasing the fusion of style and technology with Trendline, a fashion-focused website offering an immersive experience with seamless navigation and captivating visuals.',
 		tags: [
 			{
 				name: 'css',
@@ -369,7 +368,7 @@ const projects = [
 	{
 		name: 'Fashion Agency Landing Page',
 		description:
-			'Created a responsive landing page for a fashion agency using HTML and CSS. The layout and design were optimized for various screen sizes to ensure a seamless user experience.',
+			'A responsive landing page for a fashion agency, built with HTML and CSS, optimized for various screen sizes to ensure a seamless user experience.',
 		tags: [
 			{
 				name: 'html',

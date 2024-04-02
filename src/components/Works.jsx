@@ -14,19 +14,27 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 	// Check if the screen size is smaller than a certain breakpoint
 	const isSmallScreen = useMediaQuery({ maxWidth: 640 });
 
+	const handleSourceCodeClick = () => {
+		try {
+			window.open(new URL(source_code_link, window.location.origin).href, '_blank');
+		} catch (err) {
+			console.error('Invalid URL:', source_code_link);
+		}
+	};
+
+	const handleProjectUrlClick = () => {
+		window.open(project_url, '_blank');
+	};
+
 	return (
 		<div className="w-full md:w-1/2 lg:w-1/3">
 			<Tilt
-				options={{
-					max: 45,
-					scale: 1,
-					speed: 450,
-				}}
+				options={{ max: 45, scale: 1, speed: 450 }}
 				className="bg-tertiary p-5 rounded-2xl w-full">
 				<div className="relative w-full h-[230px]">
-					<div className="absolute inset-0 flex justify-start m-3 card-img_hover">
+					<div className="absolute inset-0 flex justify-between items-start m-3 card-img_hover">
 						<div
-							onClick={() => window.open(source_code_link, '_blank')}
+							onClick={handleSourceCodeClick}
 							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
 							<img
 								src={github}
@@ -34,17 +42,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 								className="w-1/2 h-1/2 object-contain"
 							/>
 						</div>
-					</div>
-
-					<img
-						src={image}
-						alt="project_image"
-						className="w-full h-full object-cover rounded-2xl"
-					/>
-
-					<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
 						<div
-							onClick={() => window.open(project_url, '_blank')}
+							onClick={handleProjectUrlClick}
 							className="violet-gradient w-10 h-10 rounded-full p-0 flex justify-center items-center cursor-pointer">
 							<img
 								src={preview}
@@ -53,13 +52,16 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 							/>
 						</div>
 					</div>
+					<img
+						src={image}
+						alt="project_image"
+						className="w-full h-full object-cover rounded-2xl"
+					/>
 				</div>
-
 				<div className="mt-5">
 					<h3 className="text-white font-bold text-[24px]">{name}</h3>
 					<p className="mt-2 text-secondary text-[14px]">{description}</p>
 				</div>
-
 				<div className="mt-4 flex flex-wrap gap-2">
 					{tags.map((tag, tagIndex) => (
 						<p
