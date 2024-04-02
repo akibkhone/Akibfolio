@@ -1,7 +1,7 @@
 import {
 	backend,
 	web,
-	spring,
+	framework,
 	javascript,
 	html,
 	css,
@@ -50,12 +50,12 @@ export const navLinks = [
 
 const services = [
 	{
-		title: 'Web Developer',
+		title: 'Full Stack Web Developer',
 		icon: web,
 	},
 	{
 		title: 'Spring Boot Developer',
-		icon: spring,
+		icon: framework,
 	},
 	{
 		title: 'Backend Java Developer',
