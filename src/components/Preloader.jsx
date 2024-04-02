@@ -6,7 +6,6 @@ const Preloader = () => {
 	const [isClosing, setIsClosing] = useState(false);
 	const greetings = [
 		'Hello',
-		'السلام عليكم',
 		'Bonjour',
 		'स्वागत हे',
 		'Ciao',
@@ -15,6 +14,7 @@ const Preloader = () => {
 		'Hallå',
 		'Guten tag',
 		'Hallo',
+		'السلام عليكم',
 	];
 
 	useEffect(() => {
