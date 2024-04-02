@@ -1,6 +1,7 @@
 import {
 	backend,
 	web,
+	spring,
 	javascript,
 	html,
 	css,
@@ -54,7 +55,7 @@ const services = [
 	},
 	{
 		title: 'Spring Boot Developer',
-		icon: backend,
+		icon: spring,
 	},
 	{
 		title: 'Backend Java Developer',
