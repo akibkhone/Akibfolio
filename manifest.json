@@ -1,0 +1,15 @@
+{
+  "name": "Akib Khan Portfolio",
+  "short_name": "Akib Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#2F363D",
+  "theme_color": "#8D81F3",
+  "icons": [
+    {
+      "src": "/public/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
