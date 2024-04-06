@@ -30,6 +30,7 @@ import {
 	FashionLookConcept,
 	cotton,
 	trendline,
+	premier,
 } from '../assets';
 
 export const navLinks = [
@@ -221,6 +222,24 @@ const projects = [
 		image: Sundown,
 		source_code_link: 'https://github.com/akibkhone/Sundown-Studio-Clone',
 		project_url: 'https://sundown-studio-clone.pages.dev/',
+	},
+	{
+		name: 'Premier Model Management',
+		description:
+			'A Premier Studio clone, emulating its design and functionality through HTML and CSS, showcasing adeptness in responsive web development and proficiency in crafting sophisticated and polished websites.',
+		tags: [
+			{
+				name: 'html',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'green-text-gradient',
+			},
+		],
+		image: premier,
+		source_code_link: 'https://github.com/akibkhone/premier',
+		project_url: 'https://premier-model.pages.dev/',
 	},
 	{
 		name: 'Employee Management System',

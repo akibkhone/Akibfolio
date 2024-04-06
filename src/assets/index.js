@@ -36,6 +36,7 @@ import FashionLookConcept from './FashionLookConcept.png';
 import ShopJacket from './ShopJacket.png';
 import cotton from './cotton.png';
 import trendline from './trendliner.png';
+import premier from './premier.png';
 
 import men from './man.png';
 import women from './women.png';
@@ -78,4 +79,5 @@ export {
 	FashionLookConcept,
 	cotton,
 	trendline,
+	premier,
 };
