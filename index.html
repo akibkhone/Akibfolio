@@ -19,13 +19,13 @@
 		<title>Akib Khan</title>
 		<meta
 			name="description"
-			content="Akib Khan is a dedicated Backend Developer from Mumbai specializing in Spring Boot and microservices architecture. With almost two years of experience" />
+			content="Akib Khan is a dedicated Full Stack Java Developer from Mumbai specializing in Spring Boot and microservices architecture. With almost two years of experience" />
 		<meta
 			property="og:title"
 			content="Akib Khan" />
 		<meta
 			property="og:description"
-			content="Akib Khan is a dedicated Backend Developer from Mumbai specializing in Spring Boot and microservices architecture. With almost two years of experience" />
+			content="Akib Khan is a dedicated Full Stack Java Developer from Mumbai specializing in Spring Boot and microservices architecture. With almost two years of experience" />
 		<meta
 			property="og:image"
 			content="https://akib-portfolio.onrender.com/Images/me.jpg" />
@@ -41,19 +41,18 @@
 		<meta
 			name="google"
 			content="notranslate" />
-		<script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("/service-worker.js");
-        });
-      }
-    </script>
-  
 	</head>
 	<body>
 		<div id="root"></div>
 		<script
 			type="module"
-			src="/src/main.jsx"></script>
+			src="src/main.jsx"></script>
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('service-worker.js');
+				});
+			}
+		</script>
 	</body>
 </html>

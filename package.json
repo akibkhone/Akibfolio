@@ -22,7 +22,8 @@
     "react-router-dom": "^6.22.3",
     "react-tilt": "^1.0.2",
     "react-toastify": "^10.0.5",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "workbox-webpack-plugin": "^7.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
