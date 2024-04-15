@@ -38,6 +38,7 @@ import ShopJacket from './ShopJacket.png';
 import cotton from './cotton.png';
 import trendline from './trendliner.png';
 import premier from './premier.png';
+import dribbble from './dribbble.png';
 
 import men from './man.png';
 import women from './women.png';
@@ -82,4 +83,5 @@ export {
 	cotton,
 	trendline,
 	premier,
+	dribbble,
 };

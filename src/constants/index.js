@@ -32,6 +32,7 @@ import {
 	cotton,
 	trendline,
 	premier,
+	dribbble,
 } from '../assets';
 
 export const navLinks = [
@@ -223,6 +224,28 @@ const projects = [
 		image: Sundown,
 		source_code_link: 'https://github.com/akibkhone/Sundown-Studio-Clone',
 		project_url: 'https://sundown-studio-clone.pages.dev/',
+	},
+	{
+		name: 'Dribbble Clone',
+		description:
+			"Experience the essence of Dribbble with our meticulously crafted HTML, CSS, and JavaScript clone. Immerse yourself in a faithful reproduction of Dribbble's iconic user interface, complete with seamless scrolling animations and responsive design.",
+		tags: [
+			{
+				name: 'html',
+				color: 'orange-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'javascript',
+				color: 'yellow-text-gradient',
+			},
+		],
+		image: dribbble,
+		source_code_link: 'https://github.com/akibkhone/Dribbble-Clone',
+		project_url: 'https://dribbble.pages.dev',
 	},
 	{
 		name: 'Premier Model Management',
