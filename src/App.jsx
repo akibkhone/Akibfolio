@@ -15,18 +15,18 @@ const App = () => {
 		return () => clearTimeout(timer);
 	}, []);
 
-	useEffect(() => {
-		if (!loading) {
-			// Embed the chatbot script when loading is false
-			const script = document.createElement('script');
-			script.type = 'text/javascript';
-			script.src = 'https://www.chatbase.co/embed.min.js';
-			script.setAttribute('chatbotId', 'bbbQpbknH0GV_QU5jsPl0');
-			script.setAttribute('domain', 'www.chatbase.co');
-			script.async = true;
-			document.body.appendChild(script);
-		}
-	}, [loading]);
+	// useEffect(() => {
+	// 	if (!loading) {
+	// 		// Embed the chatbot script when loading is false
+	// 		const script = document.createElement('script');
+	// 		script.type = 'text/javascript';
+	// 		script.src = 'https://www.chatbase.co/embed.min.js';
+	// 		script.setAttribute('chatbotId', 'bbbQpbknH0GV_QU5jsPl0');
+	// 		script.setAttribute('domain', 'www.chatbase.co');
+	// 		script.async = true;
+	// 		document.body.appendChild(script);
+	// 	}
+	// }, [loading]);
 
 	return (
 		<BrowserRouter>
