@@ -44,11 +44,11 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 						</div>
 						<div
 							onClick={handleProjectUrlClick}
-							className="violet-gradient w-10 h-10 rounded-full p-0 flex justify-center items-center cursor-pointer">
+							className="w-10 h-10 rounded-full p-0 flex justify-center items-center cursor-pointer">
 							<img
 								src={preview}
 								alt="Preview"
-								className="w-1/2 h-1/2 object-contain"
+								className="object-contain"
 							/>
 						</div>
 					</div>

@@ -372,7 +372,7 @@ const projects = [
 	{
 		name: 'Simple Portfolio',
 		description:
-			'Embrace the future of web design with this tailwind Portfolio template, leveraging the flexibility of Tailwind CSS for a stunning, responsive showcase. Perfect for developers and creatives alike, this template offers rapid customization and a mobile-first approach.',
+			"Introducing a Tailwind Portfolio template, designed for developers and creatives. With striking responsiveness and a captivating dark mode switch, it's the ultimate choice for a polished showcase.",
 		tags: [
 			{
 				name: 'tailwind',
