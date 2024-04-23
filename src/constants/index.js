@@ -33,6 +33,7 @@ import {
 	trendline,
 	premier,
 	dribbble,
+	simplePortfolio,
 } from '../assets';
 
 export const navLinks = [
@@ -367,6 +368,24 @@ const projects = [
 		image: FashionLookConcept,
 		source_code_link: 'https://github.com/akibkhone/Fashion-Look-Concept',
 		project_url: 'https://fashion-look-concept.pages.dev/',
+	},
+	{
+		name: 'Simple Portfolio',
+		description:
+			'Embrace the future of web design with this tailwind Portfolio template, leveraging the flexibility of Tailwind CSS for a stunning, responsive showcase. Perfect for developers and creatives alike, this template offers rapid customization and a mobile-first approach.',
+		tags: [
+			{
+				name: 'tailwind',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'html',
+				color: 'green-text-gradient',
+			},
+		],
+		image: simplePortfolio,
+		source_code_link: 'https://github.com/akibkhone/TailwindPortfolio',
+		project_url: 'https://tailwindportfolio.pages.dev/',
 	},
 	{
 		name: 'Cotton Weave',

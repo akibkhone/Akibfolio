@@ -39,6 +39,7 @@ import cotton from './cotton.png';
 import trendline from './trendliner.png';
 import premier from './premier.png';
 import dribbble from './dribbble.png';
+import simplePortfolio from './simplePortfolio.png';
 
 import men from './man.png';
 import women from './women.png';
@@ -84,4 +85,5 @@ export {
 	trendline,
 	premier,
 	dribbble,
+	simplePortfolio,
 };
