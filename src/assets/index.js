@@ -26,6 +26,7 @@ import rabbitmq from './tech/rabbitmq.png';
 import postman from './tech/postman.png';
 
 import infosys from './company/infosys.png';
+import Intellinum from './company/Intellinum.png';
 
 import Advice from './Advice.png';
 import Agency from './Agency.png';
@@ -86,4 +87,5 @@ export {
 	premier,
 	dribbble,
 	simplePortfolio,
+	Intellinum
 };
