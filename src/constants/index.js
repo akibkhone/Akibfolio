@@ -142,8 +142,8 @@ const experiences = [
     title: 'Java Developer',
     company_name: 'Intellinum',
     icon: intellinum, // Replace with the appropriate icon reference
-    iconBg: '#E6DEDD',
-    date: 'Feb 2024 - Present',
+    iconBg: '#FFFFFF',
+    date: 'Aug 2024 - Present',
     points: [
       'Developed and customized FlexiPro modules for clients in the Middle East and US, enhancing functionalities in COUPA, SCM, WMS, and HRMS.',
       'Built and maintained Spring Boot RESTful APIs to support multi-level email approval workflows across various projects.',
