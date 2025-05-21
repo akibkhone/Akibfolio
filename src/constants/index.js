@@ -25,7 +25,7 @@ import {
 	Agency,
 	Advice,
 	infosys,
-	intellinum,
+	Intellinum,
 	men,
 	women,
 	ShopJacket,
@@ -141,7 +141,7 @@ const experiences = [
   {
     title: 'Java Developer',
     company_name: 'Intellinum',
-    icon: intellinum, // Replace with the appropriate icon reference
+    icon: Intellinum, 
     iconBg: '#FFFFFF',
     date: 'Aug 2024 - Present',
     points: [
