@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
 	const handleDownload = () => {
 		https: window.open(
-			'https://drive.usercontent.google.com/download?id=1ilsFvKmfHueSk9O91L-IWxKdrYukMiN9&export=download&authuser=0',
+			'https://drive.google.com/uc?id=1vXLVUbdMOgL0tJ28a9Zu0SdRE82QMmdM',
 			'_blank'
 		);
 	};
