@@ -25,6 +25,7 @@ import {
 	Agency,
 	Advice,
 	infosys,
+	intellinum,
 	men,
 	women,
 	ShopJacket,
@@ -137,23 +138,37 @@ const technologies = [
 ];
 
 const experiences = [
-	{
-		title: 'System Engineer',
-		company_name: 'Infosys',
-		icon: infosys,
-		iconBg: '#383E56',
-		date: 'March 2022 - Jan 2024',
-		points: [
-			'Developed and maintained the Aircraft Maintenance Performance Toolbox web application using Spring Boot.',
-			'Coordinated enhancements to critical functionalities within the application.',
-			'Implemented JPA and Hibernate with a MySQL database for efficient data management.',
-			'Utilized agile methodologies to successfully deliver over 40 features in a fast-paced development environment.',
-			'Mentored junior developers, providing guidance and fostering growth within the team.',
-			'Recognized for outstanding performance with the Rise Insta Award and the Certificate of Appreciation from Infosys clients.',
-			'Honored with the Talent Buddy Award for exceptional achievements in full-stack development and demonstrating strong analytical skills.',
-		],
-	},
+  {
+    title: 'Java Developer',
+    company_name: 'Intellinum',
+    icon: intellinum, // Replace with the appropriate icon reference
+    iconBg: '#E6DEDD',
+    date: 'Feb 2024 - Present',
+    points: [
+      'Developed and customized FlexiPro modules for clients in the Middle East and US, enhancing functionalities in COUPA, SCM, WMS, and HRMS.',
+      'Built and maintained Spring Boot RESTful APIs to support multi-level email approval workflows across various projects.',
+      'Integrated FlexiPro with external systems to improve automation and reduce manual processes, increasing overall efficiency.',
+      'Collaborated with cross-functional teams to deliver client-specific requirements, ensuring timely and effective solutions.',
+    ],
+  },
+  {
+    title: 'Java Developer',
+    company_name: 'Infosys',
+    icon: infosys,
+    iconBg: '#383E56',
+    date: 'March 2022 - Jan 2024',
+    points: [
+      'Developed and maintained the Aircraft Maintenance Performance Toolbox web application using Spring Boot.',
+      'Coordinated enhancements to critical functionalities within the application.',
+      'Implemented JPA and Hibernate with a MySQL database for efficient data management.',
+      'Utilized agile methodologies to successfully deliver over 40 features in a fast-paced development environment.',
+      'Mentored junior developers, providing guidance and fostering growth within the team.',
+      'Recognized for outstanding performance with the Rise Insta Award and the Certificate of Appreciation from Infosys clients.',
+      'Honored with the Talent Buddy Award for exceptional achievements in full-stack development and demonstrating strong analytical skills.',
+    ],
+  },
 ];
+
 
 const testimonials = [
 	{
